@@ -1,5 +1,5 @@
 {
-  "name": "vue-modal",
+  "name": "vue_modal",
   "version": "0.0.1",
   "description": "Vue.js modal window component",
   "main": "dist/index.js",
