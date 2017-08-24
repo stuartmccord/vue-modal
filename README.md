@@ -4,17 +4,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/stuartmccord/vue-modal/master.svg?style=flat-square)](https://travis-ci.org/stuartmccord/vue-modal)
 
-A Vue.js modal component, use as follows, the HTML contents of the modal go between the ```<modal>``` tags:
-
-```html
-    <div id="app">
-        <modal :show="false">
-            Modal content
-        </modal>
-    </div>
-```
-
-Set the ```show``` attribute to ```true``` to display  the modal.
+An easy to use, customizable Vue.js modal component.
 
 ## Installation
 
@@ -30,9 +20,22 @@ or npm:
 npm install vue-modal --save
 ```
 
+Register the component within your application ```Vue.component('modal', require('vue-modal'));```
+
+
 ## Usage
 
-Add instruction on how the package can be used
+The HTML contents of the modal go between the ```<modal>``` tags:
+
+```html
+    <div id="app">
+        <modal :show="false">
+            Modal content
+        </modal>
+    </div>
+```
+
+Set the ```show``` attribute's value to ```true``` to display the modal, this can be done via and expression/variable that evaluates to true.
 
 ## Change log
 
